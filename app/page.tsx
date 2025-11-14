@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
@@ -10,7 +9,7 @@ import {
     PaymentsIcon,
     CheckCircleIcon,
     ArrowRightIcon
-} from '../../components/Icons';
+} from '../components/Icons';
 
 const AnimatedBackground = () => (
     <div className="absolute inset-0 overflow-hidden -z-10">
@@ -39,7 +38,7 @@ const HeroSection = () => (
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto animate-fade-in-up [animation-delay:0.5s]">
                 <div className="bg-secondary/50 p-6 rounded-xl">
                     <p className="text-3xl font-bold text-white">10,000+</p>
-                    <p className="text-accent">Utilisateurs actifs</p>
+                    <p className="text-accent">Utilisateurs actif</p>
                 </div>
                 <div className="bg-secondary/50 p-6 rounded-xl">
                     <p className="text-3xl font-bold text-white">$2.5M+</p>
